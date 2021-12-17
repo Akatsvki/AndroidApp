@@ -1,7 +1,7 @@
 body {
-    background: #222;
+    background: #222222;
     font-size: 18px;
-    font: #fff;
+    font: #ffffff;
 }
 
 hr {
@@ -68,7 +68,7 @@ label {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #000000;
     overflow: hidden;
     padding-top: 20px;
     font-size-adjust: none;
@@ -106,13 +106,13 @@ label {
     position: relative;
     margin-bottom: 1px;
     width: 100%;
-    color: #fff;
+    color: #ffffff;
     overflow: hidden;
     transition: 1s;
 }
 
 .tab:hover {
-    background-color: #fff;
+    background-color: #ffffff;
     color: black;
     transition: 1s;
 }

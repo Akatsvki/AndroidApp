@@ -1,0 +1,187 @@
+body {
+    background: #222;
+    font-size: 18px;
+    font: #fff;
+}
+
+hr {
+    border-bottom: 1px solid #fff;
+    opacity: 0.4;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    font-weight: lighter;
+    line-height: 3;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.figure {
+    position: relative;
+    width: 25%;
+    max-width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.figure img {
+    margin-bottom: 8px;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.figure img.image-hover {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.figure:hover img.image-hover {
+    opacity: 1;
+    transition: 2s;
+}
+
+.sidebar {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow: hidden;
+    padding-top: 20px;
+    font-size-adjust: none;
+    font-size: 2vh;
+}
+
+.main {
+    margin-left: 30.5%;
+    padding: 15px;
+    margin-right: 10%;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.half {
+    float: left;
+    width: 50%;
+    padding: 0 1em;
+}
+
+.tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.tab:hover {
+    background-color: #fff;
+    color: black;
+    transition: 1s;
+}
+
+.tab:hover a {
+    color: black;
+    transition: 1s;
+}
+
+.tab a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.tab-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+.tab-content p {
+    margin: 1em;
+}
+
+.tab-content a:hover {
+    color: rgb(240, 23, 23);
+    transition: 1s;
+}
+
+input:checked~.tab-content {
+    max-height: 20em;
+}
+
+.slide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+.slide li {
+    text-decoration: none;
+    padding: 30px;
+}
+
+#touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+#touch:checked+.slide {
+    height: 300px;
+}
+
+#toTop {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    cursor: pointer;
+    background: url(https://static.tumblr.com/fgfmpgh/M3zkzagj7/totop.png) no-repeat;
+    text-indent: -9999px;
+    width: 51px;
+    height: 51px;
+}

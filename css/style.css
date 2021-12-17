@@ -9,6 +9,7 @@ a {
 }
 
 a:hover {
+    color: #000;
     text-decoration: none;
 }
 
@@ -141,6 +142,7 @@ label {
 .tab-content {
     max-height: 0;
     overflow: hidden;
+    padding-left: 10px;
     -webkit-transition: max-height .35s;
     -o-transition: max-height .35s;
     transition: max-height .35s;
@@ -148,6 +150,7 @@ label {
 
 .tab-content p {
     margin: 1em;
+    font-size: 1.8vh;
 }
 
 .tab-content a:hover {

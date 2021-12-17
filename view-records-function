@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akatsuki</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="img\favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <div class="text-center">
+            <h1 class="mt-2 text-light display-2" style="font-size:12vh;">AKATSUKI</h1>
+
+            <!-- <hr><br/> -->
+
+            <div class="figure">
+                <img class="Sirv image-main" src="img\fran.jpg">
+                <img class="Sirv image-hover" data-src="img\hidan.png">
+                <h6 class="text-light text-center" style="font-size:1.5vh;">Francisco Diang</h6>
+            </div>
+
+            <div class="figure">
+                <img class="Sirv image-main" src="img\tian.jpg">
+                <img class="Sirv image-hover" data-src="img\itachi.png">
+                <h6 class="text-light text-center" style="font-size:1.5vh;">Christian Garcia</h6>
+            </div>
+
+            <div class="figure">
+                <img class="Sirv image-main" src="img\van.jpg">
+                <img class="Sirv image-hover" data-src="img\obito.png">
+                <h6 class="text-light text-center" style="font-size:1.5vh;">Vannirrie Sarmiento</h6>
+            </div>
+
+            <br />
+            <hr /><br />
+
+            <div class="tab">
+                <input id="tab-one" type="checkbox" name="tabs">
+                <label for="tab-one">About Us</label>
+                <div class="tab-content">
+                    <p><b>A three man team.</b> We are students currently studying Computer Studies in the University of
+                        Immaculate Conception. This team was formed in fulfillment of our Mobile Development class and
+                        this website was created to dedicated our accomplished tasks and projects. </p>
+                </div>
+            </div>
+            <div class="tab">
+                <input id="tab-two" type="checkbox" name="tabs">
+                <label for="tab-two">Heremi App</label>
+                <div class="tab-content">
+                    <p>Features & Functionalities</p>
+                    <p><a href="">Add Medicine</a></p>
+                    <p><a href="">Set Reminder</a></p>
+                    <p><a href="">View Records</a></p>
+                </div>
+            </div>
+            <div class="tab">
+                <label for="tab-three">Archive</label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main"><br>
+
+        <div class="card mb-3">
+            <div class="card-header">
+                <h3 class="text-center">View Records Function</h3>
+            </div>
+            <div class="card-body">
+                <div class="container text-center">
+                    <img src="img/prototype/frame (1).png">
+                </div>
+                <p class="text-justify mt-2">This function is paired with the user profile since the it will be the best place to show 
+                    all user records. There are 3 sections to fully distinguish each record from one another. Each sections comes with 
+                    data retrieved from the database and then displayed. The (1) <i>Due Today Section</i> 
+                    are notification boxed the user will receive throughout the day. (2) Similar to the former, the <i>All Reminders Section</i> 
+                    are all data retrieved through 
+                    the <i>Add Medicine</i> and <i>Set Reminder</i> function and displayed in a notification bubble. This part will display both reminder and medicine details. (3) 
+                    The <i>History</i> will include all the expired reminders as well as the finished medication count.</p><br/>
+                <p class="text-justify">The UI comes with a scrollable feature to allow the users to navigate through each section. Moreover, 
+                    the user is given autonomy to edit and confirm nbotification boxes. Apart from this, the user can also edit and set his 
+                    profile account through the edit button.</p><br/>
+                <p class="">Read about other functionalities;</p>
+                <a href="#" class="btn btn-outline-dark">Add Medicine</a>
+                <a href="#" class="btn btn-outline-dark">Set Reminder</a>
+            </div>
+            <div class="card-footer text-right">
+                <small class="text-muted">Nov 3, 2021</small>
+            </div>
+        </div>
+
+        <a href="#" id="toTop">^ Scroll to Top </a>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+        <script type="text/javascript" src="https://static.tumblr.com/fgfmpgh/Qqfkzalyi/jquery.scroll.pack.js"></script>
+        <script type="text/javascript" src="https://static.tumblr.com/fgfmpgh/7xukzalz8/jquery.easing.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

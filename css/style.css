@@ -4,6 +4,14 @@ body {
     font: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 hr {
     border-bottom: 1px solid #fff;
     opacity: 0.4;
@@ -120,14 +128,6 @@ label {
 .tab:hover p {
     color: black;
     transition: 1s;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 .tab p {

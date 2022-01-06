@@ -199,7 +199,7 @@ input:checked~.tab-content {
 #toTop {
     position: fixed;
     bottom: 80px;
-    right: 80px;
+    right: 50px;
     cursor: pointer;
     background: url(https://static.tumblr.com/fgfmpgh/M3zkzagj7/totop.png) no-repeat;
     text-indent: -9999px;

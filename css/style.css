@@ -131,8 +131,13 @@ label {
     transition: 1s;
 }
 
-.tab p {
+.tab:hover a {
     color: black;
+    transition: 1s;
+}
+
+.tab p {
+    color: white;
     text-decoration: none;
     font-size: 12px;
     opacity: 0.8;
@@ -150,7 +155,12 @@ label {
 
 .tab-content p {
     margin: 1em;
+    color: white;
     font-size: 1.8vh;
+}
+
+.tab-content p:hover{
+    color: black;
 }
 
 .tab-content a:hover {
